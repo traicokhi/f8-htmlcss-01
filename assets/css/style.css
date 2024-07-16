@@ -613,13 +613,17 @@ body {
 }
 
 .footer .social-link {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 28px;
     height: 28px;
+    border-radius: 3px;
+    background: #f9f9f9;
 }
 
 .footer .social-link:hover {
-    opacity: 0.6;
+    background: #ebebeb;
 }
 
 .footer .row:nth-child(2) {
