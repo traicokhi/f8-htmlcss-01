@@ -42,8 +42,18 @@ body {
     font-size: 1.6rem;
 }
 
-/* Header */
-.header {
+/* Fixed-header */
+
+.fixed-header {
+    position: sticky;
+    z-index: 1;
+    background-color: #e6f0ff;
+    padding-top: 26px;
+    top: -26px;
+}
+
+/* Hero */
+.hero-wrap {
     background-color: #e6f0ff;
     height: 100vh;
     position: relative;
@@ -51,7 +61,7 @@ body {
 
 .navbar {
     display: flex;
-    padding-top: 46px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -93,7 +103,8 @@ body {
 }
 
 .hero {
-    margin-top: 130px;
+    /* margin-top: 130px; */
+    padding-top: 130px;
 }
 
 .hero .info {
