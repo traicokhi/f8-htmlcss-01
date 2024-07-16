@@ -33,7 +33,8 @@ a {
     color: #fff;
 }
 
-.html .body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
