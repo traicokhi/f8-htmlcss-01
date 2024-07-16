@@ -33,6 +33,10 @@ a {
     color: #fff;
 }
 
+.html .body {
+    scroll-behavior: smooth;
+}
+
 html {
     font-size: 62.5%;
 }
